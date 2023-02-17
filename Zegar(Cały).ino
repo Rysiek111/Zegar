@@ -113,7 +113,7 @@ void loop() {
     }
   }
 
-  if (( month == 12)) {
+  if (( month > 12)) {
     month = 0;
     year++;
   }
