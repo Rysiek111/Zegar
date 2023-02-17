@@ -12,6 +12,8 @@ void setup() {
 
 void loop() {
 
+  delay(1000);
+
   if (( seconds <= 60)) {
     seconds++;
   }
@@ -25,7 +27,7 @@ void loop() {
     minutes = 0;
     hours++;
   }
-  
+
   if (( hours == 24)) {
     hours = 0;
   }
