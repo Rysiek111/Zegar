@@ -5,7 +5,7 @@ unsigned long previousMillis = 0;
 const long interval = 1000; // 1 sekunda
 
 void setup() {
-  Serial.begin(9600); // Monitor szeregowy
+  
 }
 
 void loop() {
