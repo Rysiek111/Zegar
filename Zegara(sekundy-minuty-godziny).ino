@@ -5,7 +5,7 @@ unsigned long previousMillis = 0;
 const long interval = 1000; // 1 sekunda
 
 void setup() {
-  
+  // Inicjalizacja, jeżeli potrzeba jakiejkolwiek konfiguracji
 }
 
 void loop() {
@@ -29,5 +29,6 @@ void loop() {
       hours = 0;
     }
 
+    // Program działa, ale nie wyświetla wyniku
   }
 }
